@@ -1,9 +1,9 @@
-print("Hola mundo, escrito desde python y el cual será actualizado en git-hub")
+print("Hola mundo, escrito desde python y el cual será actualizado en git-hub") #un simple print
 
-listaNumber1  = [1,2,3,4,5,6,7,8,9,10]
-contador = 0
-for number in listaNumber1:
+listaNumber1  = [1,2,3,4,5,6,7,8,9,10] # una cadena de numeros
+contador = 0 # contador para saber el numero que toca
+for number in listaNumber1: # ciclo para mostrar los numeros
     print(f"{contador}: numero ingresado: {number}")
-    contador = contador + 1
+    contador = contador + 1 # incrementa el contador
 
-print("Este es un print escrito desde GitHub")
+print("Este es un print escrito desde GitHub") # imprime una linea de texto
